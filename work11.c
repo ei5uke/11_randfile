@@ -73,6 +73,6 @@ int main()
         printf("\tcopy %d: %d\n", i, dupe[i]);
     }
 
-    close(copy);
+    close(r);
     return 0;
 }
